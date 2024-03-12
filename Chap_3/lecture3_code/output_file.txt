@@ -1,0 +1,5 @@
+Average score is 15.1667
+Students: 
+	Larry
+	Chloe
+have score greater than average!
