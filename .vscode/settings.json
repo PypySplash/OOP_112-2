@@ -5,6 +5,12 @@
         "iosfwd": "cpp",
         "__locale": "cpp",
         "string": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "list": "cpp",
+        "set": "cpp",
+        "map": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "queue": "cpp"
     }
 }
