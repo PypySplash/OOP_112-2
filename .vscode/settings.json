@@ -11,6 +11,11 @@
         "map": "cpp",
         "deque": "cpp",
         "unordered_map": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "ostream": "cpp",
+        "istream": "cpp",
+        "stack": "cpp",
+        "new": "cpp",
+        "array": "cpp"
     }
 }
