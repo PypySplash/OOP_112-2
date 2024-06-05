@@ -20,7 +20,7 @@ public:
 class PersonVector 
 {
 private:
-    vector<Person> personVector;
+    vector<Person> persons;
 public:
     void addPersons() 
     {
@@ -31,14 +31,14 @@ public:
         for (int i = 0; i < n; i++)
         {
             cin >> name >> age;
-            personVector.push_back(Person(name, age));
+            persons.push_back(Person(name, age));
         }
     }
     void displayPersons()
     {
-        for (int i = 0; i < personVector.size(); i++)
+        for (int i = 0; i < persons.size(); i++)
         {
-            cout << personVector[i].getName() << ": " << personVector[i].getAge() << endl;
+            cout << persons[i].getName() << ": " << persons[i].getAge() << endl;
         }
     }
 };

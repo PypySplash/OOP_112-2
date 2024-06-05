@@ -15,13 +15,13 @@ struct Node
 int main() {
     // Please fill this blank to establish the linked list
     auto head = make_shared<Node>();
-    cin >> head->value;
     head->next = make_shared<Node>();
-    cin >> head->next->value;
     head->next->next = make_shared<Node>();
-    cin >> head->next->next->value;
     head->next->next->next = nullptr;
-
+    cin >> head->value;
+    cin >> head->next->value;
+    cin >> head->next->next->value;
+    
     shared_ptr<Node> curr = head;
     while (curr) 
     {

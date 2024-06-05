@@ -8,7 +8,7 @@ class Student
 {
 private:
 public:
-    Student(string n, string id, string m) : name(n), id(id), major(m) {};
+    Student(string n, string id, string m) : name(n), id(id), major(m) {}
     string name;
     string id;
     string major;

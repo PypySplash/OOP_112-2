@@ -5,22 +5,22 @@ const int MAX_CAPACITY = 100;
 
 int main()
 {
-    int* integers = new int [MAX_CAPACITY];
-    int input;
+    int* intArray = new int [MAX_CAPACITY];
+    int integers;
     int count = 0;
 
     while (count < MAX_CAPACITY)
     {
-        cin >> input;
-        if (input < 0) break;
-        integers[count] = input;
+        cin >> integers;
+        if (integers < 0) break;
+        intArray[count] = integers;
         count++;
     }
 
     int sum = 0;
-    for (int i = 0; i < count; i++) sum += integers[i];
+    for (int i = 0; i < count; i++) sum += intArray[i];
 
     cout << sum << endl;
 
-    delete [] integers;
+    delete [] intArray;
 }

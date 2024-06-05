@@ -53,6 +53,11 @@ public:
                 month++;
             }
         }
+        else if (day == 29 && month == 2)
+        {
+            day = 1;
+            month++;
+        }
         else
             day++;
     }
